@@ -1,5 +1,15 @@
 -- Queries used in the course 
 --------------------------------------------------------------------------------------------
+create table SensorLocations(
+   id smallint not null primary key,
+   city varchar(50) not null,
+   country varchar(56) not null,
+   population int,
+   latitude decimal(9,6) not null default 0.0,
+   Longitude decimal(9,6) not null default 0.0
+)
+
+--------------------------------------------------------------------------------------------
 
 select * 
 from SensorLocations
