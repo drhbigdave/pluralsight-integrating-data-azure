@@ -1,4 +1,6 @@
 -- Queries used in the course 
+CREATE DATABASE Pollution;
+
 --------------------------------------------------------------------------------------------
 create table SensorLocations(
    id smallint not null primary key,
